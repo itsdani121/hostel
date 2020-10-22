@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/hostelsFragment"
+        android:icon="@drawable/ic_hostel"
+        android:title="@string/hostels"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/usersFragment"
+        android:icon="@drawable/ic_group_users"
+        android:title="@string/users"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/Profile"
+        app:showAsAction="always" />
+</menu>
