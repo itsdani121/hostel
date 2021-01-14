@@ -45,7 +45,8 @@ public class splash extends Activity {
             if (requestCode == result_code) {
                 IdpResponse response = IdpResponse.fromResultIntent(data);
                 if (response != null) {
-                    move();
+
+                    moving();
                 }
             }
         }
@@ -61,7 +62,7 @@ public class splash extends Activity {
                     FirebaseAuth auth = FirebaseAuth.getInstance();
                     FirebaseUser user = auth.getCurrentUser();
                     if (user != null) {
-                        move();
+                        moving();
                     } else {
                         mAuthUser();
                     }
@@ -71,7 +72,7 @@ public class splash extends Activity {
         }
     }
 
-    void move() {
+    void moving() {
         Intent i = new Intent(splash.this, MainActivity.class);
         startActivity(i);
 

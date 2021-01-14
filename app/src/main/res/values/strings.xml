@@ -14,4 +14,8 @@
     <string name="Profile">Profile</string>
     <string name="total_hostel">Total Hostels:</string>
     <string name="_1">1</string>
+    <string name="api_key">AIzaSyDQgxsTwmbkJjjYK-SM7ImJErnZLFFPNHQ</string>
+
+
+    <string name="delete">Delete Account</string>
 </resources>
